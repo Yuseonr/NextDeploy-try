@@ -35,7 +35,7 @@ export default function Toggle() {
         {isVisible && (
           <div className={`mt-4 p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-100'}`}>
             <p className="text-lg">
-              🎉 Congratulations! You've unlocked interactive content!
+              🎉 Congratulations! You&apos;ve unlocked interactive content!
               This appears and disappears based on your click.
             </p>
           </div>
